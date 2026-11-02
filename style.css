@@ -1,0 +1,62 @@
+div {
+    background-color: black;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.b1 {
+    color: white;
+    background: linear-gradient(90deg,rgba(85, 183, 207, 1) 0%, rgba(87, 199, 133, 1) 52%);
+    padding: 20px 10px;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.b1:hover {
+    color:black;
+    background: linear-gradient(90deg,rgba(250, 137, 237, 1) 0%, rgba(185, 235, 21, 1) 52%);
+    transform: rotate(360deg);
+}
+
+.b2 {
+    color: rgb(185, 90, 26);
+    border: 2px double rgb(185, 90, 26);
+    padding: 10px 20px;
+    padding: 20px 30px;
+    transition: all 4s;
+}
+
+.b2:hover {
+    box-shadow: 0px 15px 8px rgb(185, 90, 26);
+    transform: translateY(-20px)
+}
+
+.b3 {
+    color: purple;
+    background:rgb(226, 63, 63);
+    transition: all 1s;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.b3:hover {
+    transform: scale(1.15);
+    background: white;
+}
